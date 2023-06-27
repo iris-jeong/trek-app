@@ -1,0 +1,27 @@
+.explore-page {
+  /* background-color: antiquewhite; */
+}
+.explore-cards-container {
+  /* background-color: aliceblue; */
+  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+.explore-cards {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  max-width: 1370px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.itinerary-card {
+  border: none;
+  background-color: transparent;
+  color: #000;
+  text-decoration: none;
+  margin: 20px;
+}

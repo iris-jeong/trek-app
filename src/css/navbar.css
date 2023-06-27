@@ -1,0 +1,27 @@
+.navbar-container {
+	width: 100%;
+}
+.navbar {
+	/* background-color: aliceblue; */
+	max-width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 40px;
+}
+.nav-items-container {
+	/* background-color: peachpuff; */
+	display: flex;
+}
+.navbar-main {
+	font-size: 2em;
+}
+.nav-item {
+	font-size: 1.1em;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.nav-link {
+	text-decoration: none;
+	color: #193c46;
+}

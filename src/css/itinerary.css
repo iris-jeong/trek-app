@@ -1,0 +1,85 @@
+/* * * * * * * BACK * * * * * * * */
+.back {
+	/* background-color: lemonchiffon; */
+	margin-left: 150px;
+}
+.back-btn {
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	color: #4b7a90;
+	font-size: 16px;
+}
+
+/* * * * * * * ITINERARY  * * * * * * * */
+.itinerary-page {
+	/* background-color: aliceblue; */
+	display: flex;
+	margin-top: 50px;
+}
+.itinerary {
+	/* background-color: pink; */
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header {
+	margin-bottom: 20px;
+}
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.edit-itinerary-link {
+	color: #b5594b;
+	text-decoration: none;
+}
+h1 {
+	margin-bottom: 10px;
+}
+h2 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #775954;
+}
+h3 {
+	color: #b5594b;
+}
+.username-container {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.username {
+	text-decoration: none;
+	color: #4b7a90;
+	border: none;
+	font-size: 14px;
+	font-weight: 500;
+}
+.username:hover {
+	color: #142b43;
+}
+hr {
+	border: 1px solid #eeeeee;
+}
+
+.activity {
+	/* background-color: aqua; */
+	display: flex;
+	margin: 10px 0px;
+}
+.activity-container {
+	/* background-color: peachpuff; */
+	height: 100%;
+	margin: 16px 0px;
+}
+.time {
+	/* background-color: pink; */
+	min-width: 70px;
+	max-width: 70px;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15px;
+	font-weight: 600;
+}

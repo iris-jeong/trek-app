@@ -1,0 +1,61 @@
+.profile-page {
+	/* background-color: rgb(254, 255, 192); */
+	width: 1100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.profile-container {
+	/* background-color: pink; */
+}
+.back-div {
+	/* background-color: aliceblue; */
+	width: 100%;
+}
+.profile-header {
+	/* background-color: aliceblue; */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.img-container {
+	width: 150px;
+	height: 150px;
+	margin-right: 20px;
+}
+.profile-img {
+	max-width: 100%;
+	border-radius: 100%;
+}
+.profile-details {
+	/* background-color: aliceblue; */
+	margin-left: 20px;
+}
+.name {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0px;
+}
+.pf-username {
+	font-size: 16px;
+	margin: 10px 0px;
+}
+.location {
+	font-size: 14px;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+}
+.location-icon {
+	width: 16px;
+	margin-right: 5px;
+}
+.itineraries {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,33 @@
+/* * * * *  InfoBar  * * * * * */
+.info-bar-container {
+	/* background-color: lightblue; */
+	max-width: 280px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.info-item {
+	/* background-color: blanchedalmond; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.info-icon {
+	width: 16px;
+}
+.info-text {
+	font-size: 13px;
+	margin-left: 7px;
+}
+.dot-icon {
+	width: 12px;
+	height: 12px;
+}
+.bar-divider {
+	background-color: black;
+	width: 1px;
+	height: 12px;
+	display: block;
+	font-weight: bold;
+}

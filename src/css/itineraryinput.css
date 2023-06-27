@@ -1,0 +1,45 @@
+.day {
+  /* background-color: aqua; */
+  font-size: 20px;
+  font-weight: 600;
+}
+.date {
+  /* background-color: beige; */
+}
+.form-group-container {
+  /* background-color: lightsalmon; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.form-group-inner-container {
+  display: flex;
+  flex-direction: row;
+}
+.form-group {
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-group {
+  /* background-color: rgb(255, 192, 231); */
+  width: 15%;
+}
+.activity-group {
+  /* background-color: rgb(255, 203, 108); */
+  width: 50%;
+}
+.location-group {
+  /* background-color: rgb(201, 143, 255); */
+  width: 35%;
+}
+.form-label {
+  /* background-color: pink; */
+  /* min-width: 150px; */
+  text-align: end;
+}
+input {
+  width: 60%;
+}

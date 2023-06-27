@@ -1,0 +1,395 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "email": "ttrojan@usc.edu",
+      "password": "12345",
+      "username": "tommytrojantravels",
+      "first_name": "Tommy",
+      "last_name": "Trojan",
+      "city": "Los Angeles",
+      "state": "California",
+      "saved": [
+        "3",
+        "1"
+      ]
+    },
+    {
+      "id": "1",
+      "username": "travel_carley88",
+      "first_name": "Carley",
+      "last_name": "Cadell",
+      "password": "itp404",
+      "city": "San Francisco",
+      "state": "California",
+      "saved": [
+        "2",
+        "0"
+      ]
+    },
+    {
+      "id": "2",
+      "username": "waldowanders",
+      "first_name": "Waldo",
+      "last_name": "Madden",
+      "password": "itp404",
+      "city": "Austin",
+      "state": "Texas",
+      "saved": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "id": "3",
+      "username": "worldalpinetreks",
+      "first_name": "Chance",
+      "last_name": "Laurier",
+      "password": "itp404",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "saved": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "id": "4",
+      "username": "wander1902",
+      "first_name": "Mary",
+      "last_name": "Poppins",
+      "password": "itp404",
+      "city": "San Diego",
+      "state": "California",
+      "saved": [
+        "3",
+        "0"
+      ]
+    }
+  ],
+  "itineraries": [
+    {
+      "id": "0",
+      "name": "Big Apple Foodie-venture",
+      "city": "Brooklyn",
+      "state_province": "New York",
+      "country": "United States",
+      "start_date": "2020-08-10",
+      "end_date": "2020-08-13",
+      "type": "family",
+      "cost": "$$",
+      "days": [
+        {
+          "day": "1",
+          "activities": [
+            {
+              "id": "0",
+              "activity": "Flight from LAX to LGA",
+              "location": null,
+              "description": "Took the red eye from Los Angeles to New York.",
+              "start_time": "21:40",
+              "end_time": "9:04"
+            },
+            {
+              "id": "1",
+              "activity": "Hotel Check In",
+              "location": "50 Central Park S, New York, NY 10019",
+              "description": "Checked into the Ritz-Carlton New York.",
+              "start_time": "10:30",
+              "end_time": "12:00"
+            },
+            {
+              "id": "2",
+              "activity": "Lunch at Marea",
+              "location": "240 Central Park S, New York, NY 10019",
+              "description": "Ate lunch at Marea which serves a high-end Italian seafood and housemade pastas in a chic Central Park South setting! For my starter, I ordered the Tartare Di Tonno (yellowfin tuna with pear, pomegranate, and quail egg yolk). Then for my main dish, I ordered the Pansotti (a ricotta ravioli, with basil-arugula pesto, topped with pine nuts). Everything was delicious!",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "id": "3",
+              "activity": "Museum of Ice Cream",
+              "location": "558 Broadway, New York, NY 10012",
+              "description": "I rediscovered the kid in me at the Museum of Ice Cream. It definitely energizes the senses to reimagine the way we experience and love ice cream!",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            },
+            {
+              "id": "4",
+              "activity": "Dinner at Balthazar",
+              "location": "80 Spring St, New York, NY 10012",
+              "description": "I had dinner at Balthazar, a bustling, romantic brasserie that serves traditional French fare! I started off with the warm goat cheese and caramelized onion tart. I followed that with the grilled chicken paillard. Amazing food!",
+              "start_time": "19:30",
+              "end_time": "21:00"
+            }
+          ]
+        }
+      ],
+      "userId": "0"
+    },
+    {
+      "id": "1",
+      "name": "Bali Outdoor Adventures",
+      "city": "Ubud",
+      "state_province": "Bali",
+      "country": "Indonesia",
+      "start_date": "2020-08-10",
+      "end_date": "2020-08-17",
+      "type": "solo",
+      "cost": "$$$$",
+      "days": [
+        {
+          "day": "1",
+          "activities": [
+            {
+              "id": "0",
+              "activity": "Flight from LAX to LGA",
+              "location": null,
+              "description": "Took the red eye from Los Angeles to New York.",
+              "start_time": "21:40",
+              "end_time": "9:04"
+            },
+            {
+              "id": "1",
+              "activity": "Hotel Check In",
+              "location": "50 Central Park S, New York, NY 10019",
+              "description": "Checked into the Ritz-Carlton New York.",
+              "start_time": "10:30",
+              "end_time": "12:00"
+            },
+            {
+              "id": "2",
+              "activity": "Lunch at Marea",
+              "location": "240 Central Park S, New York, NY 10019",
+              "description": "Ate lunch at Marea which serves a high-end Italian seafood and housemade pastas in a chic Central Park South setting! For my starter, I ordered the Tartare Di Tonno (yellowfin tuna with pear, pomegranate, and quail egg yolk). Then for my main dish, I ordered the Pansotti (a ricotta ravioli, with basil-arugula pesto, topped with pine nuts). Everything was delicious!",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "id": "3",
+              "activity": "Museum of Ice Cream",
+              "location": "558 Broadway, New York, NY 10012",
+              "description": "I rediscovered the kid in me at the Museum of Ice Cream. It definitely energizes the senses to reimagine the way we experience and love ice cream!",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            },
+            {
+              "id": "4",
+              "activity": "Dinner at Balthazar",
+              "location": "80 Spring St, New York, NY 10012",
+              "description": "I had dinner at Balthazar, a bustling, romantic brasserie that serves traditional French fare! I started off with the warm goat cheese and caramelized onion tart. I followed that with the grilled chicken paillard. Amazing food!",
+              "start_time": "19:30",
+              "end_time": "21:00"
+            }
+          ]
+        }
+      ],
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Peruvian Exploration",
+      "city": "Macchu Picchu",
+      "state_province": "Urubamba",
+      "country": "Peru",
+      "start_date": "2022-08-19",
+      "end_date": "2022-08-29",
+      "type": "Friends",
+      "cost": "$",
+      "days": [
+        {
+          "day": "1",
+          "activities": [
+            {
+              "id": "0",
+              "activity": "Flight from LAX to LGA",
+              "location": null,
+              "description": "Took the red eye from Los Angeles to New York.",
+              "start_time": "21:40",
+              "end_time": "9:04"
+            },
+            {
+              "id": "1",
+              "activity": "Hotel Check In",
+              "location": "50 Central Park S, New York, NY 10019",
+              "description": "Checked into the Ritz-Carlton New York.",
+              "start_time": "10:30",
+              "end_time": "12:00"
+            },
+            {
+              "id": "2",
+              "activity": "Lunch at Marea",
+              "location": "240 Central Park S, New York, NY 10019",
+              "description": "Ate lunch at Marea which serves a high-end Italian seafood and housemade pastas in a chic Central Park South setting! For my starter, I ordered the Tartare Di Tonno (yellowfin tuna with pear, pomegranate, and quail egg yolk). Then for my main dish, I ordered the Pansotti (a ricotta ravioli, with basil-arugula pesto, topped with pine nuts). Everything was delicious!",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "id": "3",
+              "activity": "Museum of Ice Cream",
+              "location": "558 Broadway, New York, NY 10012",
+              "description": "I rediscovered the kid in me at the Museum of Ice Cream. It definitely energizes the senses to reimagine the way we experience and love ice cream!",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            },
+            {
+              "id": "4",
+              "activity": "Dinner at Balthazar",
+              "location": "80 Spring St, New York, NY 10012",
+              "description": "I had dinner at Balthazar, a bustling, romantic brasserie that serves traditional French fare! I started off with the warm goat cheese and caramelized onion tart. I followed that with the grilled chicken paillard. Amazing food!",
+              "start_time": "19:30",
+              "end_time": "21:00"
+            }
+          ]
+        }
+      ],
+      "userId": "0"
+    },
+    {
+      "id": "3",
+      "name": "Tokyo Dreams",
+      "city": "Tokyo",
+      "state_province": "Kanto",
+      "country": "Japan",
+      "start_date": "2021-02-15",
+      "end_date": "2021-02-19",
+      "type": "Family",
+      "cost": "3",
+      "days": [
+        {
+          "day": "1",
+          "activities": [
+            {
+              "id": "0",
+              "day": "1",
+              "activity": "Flight from LAX to LGA",
+              "location": null,
+              "description": "Took the red eye from Los Angeles to New York.",
+              "start_time": "21:40",
+              "end_time": "9:04"
+            },
+            {
+              "id": "1",
+              "day": "1",
+              "activity": "Hotel Check In",
+              "location": "50 Central Park S, New York, NY 10019",
+              "description": "Checked into the Ritz-Carlton New York.",
+              "start_time": "10:30",
+              "end_time": "12:00"
+            },
+            {
+              "id": "2",
+              "day": "1",
+              "activity": "Lunch at Marea",
+              "location": "240 Central Park S, New York, NY 10019",
+              "description": "Ate lunch at Marea which serves a high-end Italian seafood and housemade pastas in a chic Central Park South setting! For my starter, I ordered the Tartare Di Tonno (yellowfin tuna with pear, pomegranate, and quail egg yolk). Then for my main dish, I ordered the Pansotti (a ricotta ravioli, with basil-arugula pesto, topped with pine nuts). Everything was delicious!",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "id": "3",
+              "day": "1",
+              "activity": "Museum of Ice Cream",
+              "location": "558 Broadway, New York, NY 10012",
+              "description": "I rediscovered the kid in me at the Museum of Ice Cream. It definitely energizes the senses to reimagine the way we experience and love ice cream!",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            },
+            {
+              "id": "4",
+              "day": "1",
+              "activity": "Dinner at Balthazar",
+              "location": "80 Spring St, New York, NY 10012",
+              "description": "I had dinner at Balthazar, a bustling, romantic brasserie that serves traditional French fare! I started off with the warm goat cheese and caramelized onion tart. I followed that with the grilled chicken paillard. Amazing food!",
+              "start_time": "19:30",
+              "end_time": "21:00"
+            }
+          ]
+        },
+        {
+          "day": "2",
+          "activities": [
+            {
+              "id": "0",
+              "day": "2",
+              "activity": "Flight from LAX to LGA",
+              "location": null,
+              "description": "Took the red eye from Los Angeles to New York.",
+              "start_time": "21:40",
+              "end_time": "9:04"
+            },
+            {
+              "id": "1",
+              "day": "2",
+              "activity": "Hotel Check In",
+              "location": "50 Central Park S, New York, NY 10019",
+              "description": "Checked into the Ritz-Carlton New York.",
+              "start_time": "10:30",
+              "end_time": "12:00"
+            },
+            {
+              "id": "2",
+              "day": "2",
+              "activity": "Lunch at Marea",
+              "location": "240 Central Park S, New York, NY 10019",
+              "description": "Ate lunch at Marea which serves a high-end Italian seafood and housemade pastas in a chic Central Park South setting! For my starter, I ordered the Tartare Di Tonno (yellowfin tuna with pear, pomegranate, and quail egg yolk). Then for my main dish, I ordered the Pansotti (a ricotta ravioli, with basil-arugula pesto, topped with pine nuts). Everything was delicious!",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "id": "3",
+              "activity": "Museum of Ice Cream",
+              "location": "558 Broadway, New York, NY 10012",
+              "description": "I rediscovered the kid in me at the Museum of Ice Cream. It definitely energizes the senses to reimagine the way we experience and love ice cream!",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            },
+            {
+              "id": "4",
+              "day": "2",
+              "activity": "Dinner at Balthazar",
+              "location": "80 Spring St, New York, NY 10012",
+              "description": "I had dinner at Balthazar, a bustling, romantic brasserie that serves traditional French fare! I started off with the warm goat cheese and caramelized onion tart. I followed that with the grilled chicken paillard. Amazing food!",
+              "start_time": "19:30",
+              "end_time": "21:00"
+            }
+          ]
+        }
+      ],
+      "userId": "3"
+    },
+    {
+      "name": "Netherlands",
+      "city": "Zurich",
+      "state_province": "Corcan",
+      "country": "Netherlands",
+      "start_date": "2022-01-01",
+      "end_date": "2022-01-01",
+      "type": "Solo",
+      "cost": "$",
+      "days": [
+        {
+          "day": 1,
+          "activities": [
+            {
+              "location": "ritz-carlton",
+              "description": "check into hotel",
+              "start_time": "01:00"
+            }
+          ]
+        }
+      ],
+      "userId": "0",
+      "id": "EhLWvzY"
+    }
+  ],
+  "comments": [
+    {
+      "id": "2",
+      "date": "2021-04-02",
+      "comment": "Thanks for sharing!",
+      "itineraryId": "1",
+      "userId": "0"
+    }
+  ]
+}

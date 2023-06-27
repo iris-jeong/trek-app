@@ -1,0 +1,133 @@
+.create-container {
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  /* background-color: pink; */
+  width: 400px;
+  margin-top: 100px;
+}
+
+/* * ALL INPUTS * */
+.travel-input {
+  /* background-color: lemonchiffon; */
+  width: 100%;
+  height: 40px;
+  margin-bottom: 16px;
+}
+/* * DATE INPUT * */
+.dates-container {
+  /* background-color: azure; */
+  width: 100%;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+}
+.divider {
+  display: block;
+  background-color: #c3c3c3;
+  margin-top: 7px;
+  height: 80%;
+  width: 1px;
+}
+.start-input,
+.end-input {
+  /* background-color: lemonchiffon; */
+  width: 50%;
+}
+.input-date-label {
+  background-color: white;
+  position: absolute;
+  translate: 12px -8px;
+  padding: 0px 6px;
+  font-size: 14px;
+}
+.input-date {
+  /* background-color: lemonchiffon; */
+  height: 100%;
+  width: 95%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 5px;
+  text-align: center;
+  outline: none !important;
+}
+
+/* Hide Calendar Icon In Chrome */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+/* ** */
+.button-container {
+  margin-top: 30px;
+}
+.full-width-button {
+  background-color: #b5594b;
+  width: 100%;
+  height: 50px;
+  border-style: none;
+  border-radius: 5px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+}
+.full-width-button:hover {
+  background-color: #b65141;
+  cursor: pointer;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.4px);
+}
+.travel-error {
+  margin-top: 10px;
+}
+/* 
+.dates-container {
+	background-color: beige;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.btn-container {
+	background-color: aliceblue;
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+.btn {
+	background-color: #b5594b;
+	width: 100%;
+	height: 50px;
+	border-style: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease 0s;
+}
+.btn:hover {
+	background-color: #b65141;
+	cursor: pointer;
+	box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.2);
+	transform: translateY(-0.4px);
+} */

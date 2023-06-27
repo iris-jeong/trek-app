@@ -1,0 +1,56 @@
+.card-container {
+  /* background-color: rgb(255, 217, 223); */
+  min-width: 200px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #000; */
+  /* border-radius: 5%; */
+}
+.card-header {
+  /* background-color: beige; */
+  position: relative;
+}
+.card-img {
+  max-width: 100%;
+  display: block;
+  border-radius: 13px;
+}
+.card-body {
+  /* background-color: aliceblue; */
+  padding: 3%;
+}
+.card-title {
+  /* background-color: peachpuff; */
+  text-align: left;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin: 0%;
+  width: 88%;
+}
+.card-text {
+  /* background-color: yellow; */
+  text-align: left;
+  margin-top: 6px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  font-size: 14px;
+}
+.save-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+}
+.save-btn:hover {
+  cursor: pointer;
+}
+
+.save-img {
+  width: 32px;
+}
